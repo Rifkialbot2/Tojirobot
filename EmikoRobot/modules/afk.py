@@ -64,8 +64,8 @@ def no_longer_afk(update: Update, context: CallbackContext):
         firstname = update.effective_user.first_name
         try:
             message.reply_text(
-                f"<b>{firstname}</b> is back online!\n"
-                f"You were away for: <code>{end_afk_time}</code>",
+                f"<b>{}</b> is back online!\n"
+                f"You were away for: <code>`{}`</code>",
                 parse_mode=ParseMode.HTML,
             )
         except BadRequest:
