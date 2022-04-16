@@ -4,7 +4,7 @@ from telegram import MessageEntity, ParseMode, Update
 from telegram.error import BadRequest
 from telegram.ext import CallbackContext, Filters, MessageHandler
 
-from EmikoRobot import dispatcher, REDIS
+from EmikoRobot import dispatcher, ARQ
 from EmikoRobot.modules.disable import (
     DisableAbleCommandHandler,
     DisableAbleMessageHandler,
