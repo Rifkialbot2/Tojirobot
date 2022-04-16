@@ -24,7 +24,7 @@ SOFTWARE.
 
 import time
 import random
-import humanize
+import EmikoRobot
 
 from typing import Optional
 from datetime import datetime
