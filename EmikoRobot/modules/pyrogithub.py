@@ -5,7 +5,13 @@ from EmikoRobot.utils.errors import capture_err
 
 
 __mod_name__ = "Github"
+__help__ = """
+📚 𝙂𝙄𝙏𝙃𝙐𝘽 𝘼𝘾𝘾𝙊𝙐𝙉𝙏 ℹ️
 
+/git username github
+
+Thanks @skytrixsz
+"""
 
 @pbot.on_message(filters.command(["github", "git", f"git@{BOT_USERNAME}"]))
 @capture_err
