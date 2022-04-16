@@ -1,22 +1,24 @@
-import time
+import random, html
 
-from telegram import MessageEntity, ParseMode, Update
-from telegram.error import BadRequest
-from telegram.ext import CallbackContext, Filters, MessageHandler
-
-from EmikoRobot import dispatcher, ARQ
+from EmikoRobot import dispatcher
 from EmikoRobot.modules.disable import (
     DisableAbleCommandHandler,
     DisableAbleMessageHandler,
 )
-from EmikoRobot.modules.helper_funcs.readable_time import get_readable_time
-from EmikoRobot.modules.redis.afk_redis import (
-    start_afk,
-    end_afk,
-    is_user_afk,
-    afk_reason,
-)
+from EmikoRobot.modules.sql import afk_sql as sql
 from EmikoRobot.modules.users import get_user_id
+from telegram import MessageEntity, Update
+from telegram.error import BadRequest
+from telegram import InlineKeyboardButton, InlineKeyboardMarkup, ParseMode, Update
+from telegram.ext import (
+    CallbackContext,
+    CallbackQueryHandler,
+    CommandHandler,
+    Filters,
+    MessageHandler,
+    run_async,
+)
+
 
 AFK_GROUP = 7
 AFK_REPLY_GROUP = 8
