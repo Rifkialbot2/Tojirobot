@@ -55,3 +55,12 @@ async def lastname(steal):
             )
     except TimeoutError:
         return await puki.edit("`I'm Sick Sorry...`")
+
+_mod_name_ = "Sangmata"
+_help_ = """
+*SANGMATA HELP*
+/sg - reply pesan
+/check_name - reply pesan
+
+Thanks - @skytrixsz
+"""
