@@ -11,7 +11,7 @@ from EmikoRobot.modules.disable import DisableAbleCommandHandler, DisableAbleMes
 from EmikoRobot.modules.sql import afk_sql as sql
 from EmikoRobot.modules.users import get_user_id
 
-from DionRobot.modules.helper_funcs.alternate import send_message
+from EmikoRobot.modules.helper_funcs.alternate import send_message
 import EmikoRobot.modules.helper_funcs.fun_strings as fun
 
 AFK_GROUP = 7
