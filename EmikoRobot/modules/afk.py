@@ -36,7 +36,7 @@ from telegram.ext import Filters, MessageHandler, run_async
 from EmikoRobot import dispatcher
 from EmikoRobot.modules.disable import DisableAbleCommandHandler, DisableAbleMessageHandler
 from EmikoRobot.modules.sql import afk_sql as sql
-from EmikoRobot import REDIS
+from EmikoRobot import sql
 from EmikoRobot.modules.users import get_user_id
 
 from EmikoRobot.modules.helper_funcs.alternate import send_message
