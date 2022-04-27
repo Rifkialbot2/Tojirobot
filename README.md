@@ -4,7 +4,8 @@
 
 <h4><p align="center"> TOJI ROBOT </p></h4>
 
-<p align="center">Toji Robot is a modular bot running on python3 with anime theme and have a lot features.</p>
+<p align="center">Toji Robot adalah bot modular yang berjalan di python3 dengan tema anime dan memiliki banyak fitur.</p>.</p>
+
 
 <p align="center">
 <a href="https://t.me/skytrixszbot"> <img src="https://img.shields.io/badge/Toji-Robot-blue?&logo=telegram" alt="Toji on Telegram" /> </a><br>
