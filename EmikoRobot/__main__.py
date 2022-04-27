@@ -449,7 +449,7 @@ def emiko_about_callback(update, context):
             reply_markup=InlineKeyboardMarkup(
                 [
                     [
-                        InlineKeyboardButton(text="𝙂𝙧𝙤𝙪𝙥 𝙈𝙚", url="t.me/wibuhouse"),
+                        InlineKeyboardButton(text="𝙂𝙧𝙤𝙪𝙥 𝙈𝙚", url="https://t.me/+E_rNRTVVAdM3YzY1"),
                         InlineKeyboardButton(
                             text="𝘾𝙝𝙖𝙣𝙣𝙚𝙡 𝙈𝙚", url="https://t.me/skytrixch"
                         ),
