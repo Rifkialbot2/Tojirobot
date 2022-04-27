@@ -1,9 +1,8 @@
 <p align="center">
   <img src="https://telegra.ph/file/f65b5b2d6c97e21cbed1d.jpg">
 </p>
-#TOJI
 
-<h4><p align="center"> TOJI ROBOT </p></h4>
+<h4><p align="center"> *𝑻𝑶𝑱𝑰 𝑹𝑶𝑩𝑶𝑻* </p></h4>
 
 <p align="center">Toji Robot adalah bot modular yang berjalan di python3 dengan tema anime dan memiliki banyak fitur.</p>.</p>
 
