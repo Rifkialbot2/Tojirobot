@@ -39,8 +39,8 @@ Bot ini Dibuat oleh @Skytrixsz, Thanks.
 
 ### Support
 <p>
-<a href="https://t.me/wibuhouse"> <img src="https://img.shields.io/badge/Support-blue?&logo=telegram" alt="Support on Telegram" /> </a><br>
-<a href="https://t.me/wibulodging"> <img src="https://img.shields.io/badge/Support-Chat-blue?&logo=telegram" alt="Support Chat" /> </a><br>
+<a href="https://t.me/ikisupport0"> <img src="https://img.shields.io/badge/Support-blue?&logo=telegram" alt="Support on Telegram" /> </a><br>
+<a href="https://t.me/+E_rNRTVVAdM3YzY1"> <img src="https://img.shields.io/badge/Support-Chat-blue?&logo=telegram" alt="Support Chat" /> </a><br>
 <a href="https://t.me/skytrixch"> <img src="https://img.shields.io/badge/Update-Channel-blue?&logo=telegram" alt="Update Channel" /> </a><br>
 </p>
 
