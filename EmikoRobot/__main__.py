@@ -82,35 +82,55 @@ def get_readable_time(seconds: int) -> str:
 
 
 PM_START_TEXT = """
-*Hᴀʟʟᴏ {} !*
-× *sᴀʏᴀ ᴀᴅᴀʟᴀʜ ʀᴏʙᴏᴛ ᴍᴀɴᴀᴊᴇᴍᴇɴ ʙᴇʀᴛᴇᴍᴀ ᴡɪʙᴜ* [⛩️](https://telegra.ph/file/f65b5b2d6c97e21cbed1d.jpg)
+*┗┓ ʜᴀʏ ɴᴀᴍᴀ sᴀʏᴀ 𝑺𝑲𝒀𝑻𝑹𝑰𝑿𝑺𝒁𝑩𝑶𝑻 ┏┛*
+
+𝑺𝑨𝒀𝑨 𝑨𝑫𝑨𝑳𝑨𝑯 𝑹𝑶𝑩𝑶𝑻 𝑴𝑨𝑵𝑨𝑱𝑬𝑴𝑬𝑵 𝒀𝑨𝑵𝑮 𝑨𝑲𝑨𝑵
+𝑴𝑬𝑳𝑰𝑵𝑫𝑼𝑵𝑮𝑰 𝑨𝑻𝑨𝑼 𝑴𝑬𝑵𝑱𝑨𝑮𝑨 𝑮𝑹𝑼𝑷 𝑨𝑵𝑫𝑨
+━━━━━━━━━━━━━━━━━━━━━━
+𝑨𝑵𝑫𝑨 𝑩𝑰𝑺𝑨 𝑴𝑬𝑳𝑰𝑯𝑨𝑻 𝑴𝑬𝑵𝑼 𝑩𝑶𝑻 𝑫𝑬𝑵𝑮𝑨𝑵
+𝑴𝑬𝑵𝑮𝑲𝑳𝑰𝑲 𝑻𝑶𝑴𝑩𝑶𝑳 𝑫𝑰 𝑩𝑨𝑾𝑨𝑯
+𝑫𝑨𝑵 𝑴𝑬𝑳𝑰𝑯𝑨𝑻 𝑺𝑬𝑴𝑼𝑨 𝑰𝑵𝑭𝑶𝑹𝑴𝑨𝑺𝑰 𝑩𝑶𝑻
+━━━━━━━━━━━━━━━━━━━━━━
 ┏━━━━━━━━━━━━━━━━━━━━━━┓
 ┃ *ᴀᴋғɪғ sᴇʟᴀᴍᴀ:* `{}`
 ┃ `{}` *ᴘᴇɴɢɢᴜɴᴀ,* * ᴅᴀɴ,* `{}` *ᴏʙʀᴏʟᴀɴ.*
 ┗━━━━━━━━━━━━━━━━━━━━━━┛
+𝑹𝒐𝒃𝒐𝒕 𝑩𝒚 : [𝑹𝒊𝒇𝒌𝒚𝒛](https://t.me/skytrixsz)
+𝑺𝒖𝒑𝒑𝒐𝒓𝒕 : [𝙂𝙧𝙪𝙥 1](t.me/ikisupport0)
+𝑺𝒖𝒑𝒑𝒐𝒓𝒕 : [𝙂𝙧𝙪𝙥 2](https://t.me/+E_rNRTVVAdM3YzY1)
+━━━━━━━━━━━━━━━━━━━━━━
+ᴛᴀᴍʙᴀʜ sᴀʏᴀ ᴋᴇ ɢʀᴜᴘ ᴍᴜ [🤖](https://telegra.ph/file/acd4ccd44de93d58fddfb.mp4)
 """
 
 buttons = [
     [
-        InlineKeyboardButton(text="ℹ️ 𝙄𝙣𝙛𝙤 ℹ️", callback_data="emiko_"),
+        InlineKeyboardButton(text="ɪɴғᴏᴍᴇ", callback_data="emiko_"),
     ],
     [
-        InlineKeyboardButton(text="👩‍💻 𝙊𝙬𝙣𝙚𝙧 👩‍💻", url=f"t.me/skytrixsz"),
+        InlineKeyboardButton(text="ᴏᴡɴᴇʀ", url=f"t.me/skytrixsz"),
     ],
     [
-        InlineKeyboardButton(text="📚 𝙈𝙚𝙣𝙪", callback_data="help_back"),
-        InlineKeyboardButton(text="𝙄𝙣𝙡𝙞𝙣𝙚 📠", switch_inline_query_current_chat=""),
+        InlineKeyboardButton(text="ᴀʟʟᴍᴇɴᴜ", url=f"http://t.me/skytrixszbot?start=help"),
+        InlineKeyboardButton(text="ᴍᴜsɪᴄ", callback_data="source_"),
     ],
     [
         InlineKeyboardButton(
-            text="🏘️ 𝙏𝙖𝙢𝙗𝙖𝙝 𝙎𝙖𝙮𝙖 𝙆𝙚 𝙂𝙧𝙪𝙥 𝙈𝙪 🏘️", url=f"t.me/skytrixszbot?startgroup=new"
+            text="ᴛᴀᴍʙᴀʜ ᴋᴇ ɢʀᴜᴘ", url=f"t.me/skytrixszbot?startgroup=new"
         ),
     ],
 ]
 
 
 HELP_STRINGS = """
-*𝑻𝒆𝒌𝒂𝒏 𝑻𝒐𝒎𝒃𝒐𝒍 𝑫𝒊𝒃𝒂𝒘𝒂𝒉, 𝑼𝒏𝒕𝒖𝒌 𝑴𝒆𝒍𝒊𝒉𝒂𝒕 𝑳𝒊𝒉𝒂𝒕 𝑴𝒆𝒏𝒖 𝑫𝒊 𝑩𝒂𝒘𝒂𝒉 𝒊𝒏𝒊 @skytrixsz*."""
+ᴘᴇʀɪɴᴛᴀʜ ʙᴏᴛ :
+━━━━━━━━━━━━━━━━
+/start - ᴍᴇᴍᴜʟᴀɪ ʙᴏᴛ
+/help - ᴍᴇʟɪʜᴀᴛ ᴍᴇɴᴜ ʙᴏᴛ
+/mhelp - ᴍᴇʟɪʜᴀᴛ ᴍᴇɴᴜ ᴍᴜsɪᴄ
+━━━━━━━━━━━━━━━━
+@skytrixsz
+━━━━━━
+"""
 
 
 DONATE_STRING = """*Gak ada*"""
@@ -364,7 +384,7 @@ def emiko_about_callback(update, context):
     query = update.callback_query
     if query.data == "emiko_":
         query.message.edit_text(
-            text="๏ 𝙏𝙚𝙠𝙖𝙣 𝙏𝙤𝙢𝙗𝙤𝙡 𝘿𝙞 𝘽𝙖𝙬𝙖𝙝 𝙄𝙣𝙞 𝙐𝙣𝙩𝙪𝙠 𝙈𝙚𝙡𝙞𝙝𝙖𝙩 𝙄𝙣𝙛𝙤𝙧𝙢𝙖𝙨𝙞 𝙎𝙖𝙮𝙖."
+            text="Tᴇᴋᴀɴ Tᴏᴍʙᴏʟ Dɪ Bᴀᴡᴀʜ Uɴᴛᴜᴋ Mᴇʟɪʜᴀᴛ Lᴇʙɪʜ Bᴀɴʏᴀᴋ Iɴғᴏʀᴍᴀsɪ Tᴇɴᴛᴀɴɢ Sᴀʏᴀ."
             "\n• @skytrixsz.",
             parse_mode=ParseMode.MARKDOWN,
             disable_web_page_preview=True,
@@ -372,27 +392,27 @@ def emiko_about_callback(update, context):
                 [
                     [
                         InlineKeyboardButton(
-                            text="ℹ️ 𝙏𝙚𝙣𝙩𝙖𝙣𝙜 ℹ️", callback_data="emiko_admin"
+                            text="ᴛᴇɴᴛᴀɴɢ sᴀʏᴀ", callback_data="emiko_admin"
                         ),
-                        InlineKeyboardButton(text="🎧 𝙈𝙪𝙨𝙞𝙘 🎧", callback_data="source_"),
+                        InlineKeyboardButton(text="ᴍᴜsɪᴄ", callback_data="source_"),
                     ],
                     [
                         InlineKeyboardButton(
-                            text="⛩️ 𝘼𝙡𝙡 𝙂𝙧𝙤𝙪𝙥𝙨 ⛩️", callback_data="emiko_support"
+                            text="ɢʀᴜᴘ", callback_data="emiko_support"
                         ),
                         InlineKeyboardButton(
-                            text="👩‍💻 𝘾𝙧𝙚𝙙𝙞𝙩𝙨 👩‍💻", callback_data="emiko_credit"
+                            text="ᴋʀᴇᴅɪᴛ", callback_data="emiko_credit"
                         ),
                     ],
                     [
                         InlineKeyboardButton(
-                            text="📠 𝙎𝙩𝙧𝙞𝙣𝙜 📠",
+                            text="sᴛʀɪɴɢ",
                             callback_data="emiko_notes",
                         ),
                     ],
                     [
                         InlineKeyboardButton(
-                            text="𝙆𝙚𝙢𝙗𝙖𝙡𝙞 🔙", callback_data="emiko_back"
+                            text="ᴋᴇʟᴜᴀʀ", callback_data="emiko_back"
                         ),
                     ],
                 ]
@@ -417,8 +437,8 @@ def emiko_about_callback(update, context):
     elif query.data == "emiko_admin":
         query.message.edit_text(
             text=f"*᯽ 𝘼𝙗𝙤𝙪𝙩*"
-            "\n𝙏𝙤𝙟𝙞 𝘽𝙤𝙩 𝘼𝙙𝙖𝙡𝙖𝙝 𝙍𝙤𝙗𝙤𝙩 𝙈𝙚𝙣𝙚𝙟𝙚𝙢𝙚𝙣 𝘽𝙚𝙧𝙩𝙚𝙢𝙖 𝘼𝙣𝙞𝙢𝙚 𝙔𝙖𝙣𝙜 𝙈𝙪𝙣𝙜𝙠𝙞𝙣 𝘼𝙠𝙖𝙣 𝘿𝙞𝙠𝙚𝙢𝙗𝙖𝙣𝙜 𝙆𝙖𝙣 𝙇𝙚𝙗𝙞𝙝 𝙇𝙖𝙣𝙟𝙪𝙩."
-            "\n\n𝘽𝙤𝙩 𝙏𝙤𝙟𝙞 𝘽𝙚𝙠𝙚𝙧𝙟𝙖 𝙎𝙚𝙟𝙖𝙠 9 𝘼𝙥𝙧𝙞𝙡"
+            "\n𝙎𝙠𝙮𝙩𝙧𝙞𝙭𝙨𝙯 𝘽𝙤𝙩 𝘼𝙙𝙖𝙡𝙖𝙝 𝙍𝙤𝙗𝙤𝙩 𝙈𝙚𝙣𝙚𝙟𝙚𝙢𝙚𝙣 𝘽𝙚𝙧𝙩𝙚𝙢𝙖 𝘼𝙣𝙞𝙢𝙚 𝙔𝙖𝙣𝙜 𝙈𝙪𝙣𝙜𝙠𝙞𝙣 𝘼𝙠𝙖𝙣 𝘿𝙞𝙠𝙚𝙢𝙗𝙖𝙣𝙜 𝙆𝙖𝙣 𝙇𝙚𝙗𝙞𝙝 𝙇𝙖𝙣𝙟𝙪𝙩."
+            "\n\n𝘽𝙤𝙩 𝙎𝙠𝙮𝙩𝙧𝙞𝙭𝙨𝙯 𝘽𝙚𝙠𝙚𝙧𝙟𝙖 𝙎𝙚𝙟𝙖𝙠 1 𝙈𝙚𝙞"
             "\n𝘿𝙖𝙣 𝙈𝙚𝙢𝙗𝙖𝙣𝙩𝙪 𝘼𝙙𝙢𝙞𝙣 𝙈𝙚𝙣𝙟𝙖𝙜𝙖 𝙂𝙧𝙪𝙥 𝘼𝙜𝙖𝙧 𝙏𝙚𝙩𝙖𝙥 𝙀𝙛𝙚𝙠𝙩𝙞𝙛."
             "\n𝘿𝙖𝙣 𝙋𝙚𝙧𝙞𝙣𝙩𝙖𝙝 𝘽𝙞𝙨𝙖 𝘿𝙞𝙟𝙖𝙡𝙖𝙣 𝙆𝙖𝙣 𝘿𝙞 𝘿𝙖𝙡𝙖𝙢 𝙂𝙧𝙪𝙥 𝘿𝙖𝙣 𝙅𝙪𝙜𝙖 𝙋𝙧𝙞𝙫𝙖𝙨𝙞 𝘽𝙤𝙩."
             "\n\n𝗗𝗜𝗟𝗜𝗦𝗘𝗡𝗦𝗜 𝗗𝗜𝗕𝗔𝗪𝗔𝗛 𝗚𝗡𝗨 𝗔𝗙𝗙𝗘𝗥𝗢 𝗚𝗘𝗡𝗘𝗥𝗔𝗟 𝗣𝗨𝗕𝗟𝗜𝗖 𝗟𝗜𝗦𝗘𝗡𝗖𝗘 𝗩3.0"
@@ -432,10 +452,10 @@ def emiko_about_callback(update, context):
 
     elif query.data == "emiko_notes":
         query.message.edit_text(
-            text=f"<b>๏ 𝙎𝙏𝙍𝙄𝙉𝙂 𝙎𝙀𝙎𝙎𝙄𝙊𝙉 𝘽𝙊𝙏</b>"
-            f"\n/start 𝙈𝙚𝙢𝙪𝙡𝙖𝙞 𝘽𝙤𝙩"
-            f"\n/ganerate 𝙈𝙪𝙡𝙖𝙞 𝙋𝙚𝙣𝙜𝙖𝙢𝙗𝙞𝙡𝙖𝙣 𝙎𝙩𝙧𝙞𝙣𝙜 𝙎𝙚𝙨𝙨𝙞𝙤𝙣"
-            f"\n\n/cancel 𝙈𝙚𝙢𝙗𝙖𝙩𝙖𝙡 𝙆𝙖𝙣 𝙋𝙚𝙣𝙜𝙖𝙢𝙗𝙞𝙡𝙖𝙣 𝙎𝙩𝙧𝙞𝙣𝙜",
+            text=f"<b>*sᴛʀɪɴɢ sᴇssɪᴏɴ*</b>"
+            f"\nɢᴏ ᴛᴏ ʙᴏᴛ ᴛᴏᴊɪ"
+            f"\nʙᴏᴛ : [ᴛᴏᴊɪʙᴏᴛ](t.me/skytrixszbot)"
+            f"\nᴏᴡɴᴇʀ : @skytrixsz",
             parse_mode=ParseMode.HTML,
             reply_markup=InlineKeyboardMarkup(
                 [[InlineKeyboardButton(text="Go Back", callback_data="emiko_")]]
@@ -443,7 +463,7 @@ def emiko_about_callback(update, context):
         )
     elif query.data == "emiko_support":
         query.message.edit_text(
-            text="*๏ 𝘼𝙡𝙡 𝙂𝙧𝙤𝙪𝙥𝙨*"
+            text="*𝘼𝙡𝙡 𝙂𝙧𝙤𝙪𝙥𝙨*"
             "\n𝘽𝙚𝙧𝙜𝙖𝙗𝙪𝙣𝙜 𝙇𝙖𝙝 𝘿𝙚𝙣𝙜𝙖𝙣 𝙂𝙧𝙪𝙥 𝘼𝙩𝙖𝙪 𝙎𝙖𝙡𝙪𝙧𝙖𝙣 𝘿𝙞 𝘽𝙖𝙬𝙖𝙝 𝙄𝙣𝙞.",
             parse_mode=ParseMode.MARKDOWN,
             reply_markup=InlineKeyboardMarkup(
@@ -470,14 +490,14 @@ def emiko_about_callback(update, context):
                 [
                     [
                         InlineKeyboardButton(
-                            text="𝙎𝙠𝙮𝙩𝙧𝙞𝙭𝙨𝙯", url="https://t.me/skytrixsz"
+                            text="sᴋʏᴛʀɪxsᴢᴋʏ", url="https://t.me/skytrixsz"
                         ),
                         InlineKeyboardButton(
-                            text="𝙐𝙥𝙙𝙖𝙩𝙚", url="https://t.me/skytrixch"
+                            text="ᴄʜᴀɴɴᴇʟ", url="https://t.me/skytrixch"
                         ),
                     ],
                     [
-                        InlineKeyboardButton(text="Go Back", callback_data="emiko_"),
+                        InlineKeyboardButton(text="ᴋᴇʟᴜᴀʀ", callback_data="emiko_"),
                     ],
                 ]
             ),
@@ -746,8 +766,8 @@ def donate(update: Update, context: CallbackContext):
 
         if OWNER_ID != 1606221784:
             update.effective_message.reply_text(
-                "I'm free for everyone ❤️ If you wanna make me smile, just join"
-                "[My Channel]({})".format(DONATION_LINK),
+                "@skytrixsz"
+                "[My Channel](t.me/skytrixch)".format(DONATION_LINK),
                 parse_mode=ParseMode.MARKDOWN,
             )
     else:
@@ -792,7 +812,7 @@ def main():
     if SUPPORT_CHAT is not None and isinstance(SUPPORT_CHAT, str):
         try:
             dispatcher.bot.sendMessage(
-                f"@{SUPPORT_CHAT}", "👋 Hi, i'm alive.", parse_mode=ParseMode.MARKDOWN
+                f"@{SUPPORT_CHAT}", "👋 @skytrixsz.", parse_mode=ParseMode.MARKDOWN
             )
         except Unauthorized:
             LOGGER.warning(
