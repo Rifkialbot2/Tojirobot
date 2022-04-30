@@ -9,7 +9,7 @@ from EmikoRobot.events import register
 from EmikoRobot import telethn as tbot
 
 
-PHOTO = "https://telegra.ph/file/282542026d3570aedf7c1.jpg"
+PHOTO = "https://telegra.ph/file/c8d6d0ba6a5e8d0205eba.jpg"
 
 
 @register(pattern=("/alive"))
@@ -24,7 +24,7 @@ async def awake(event):
     BUTTON = [
         [
             Button.url("Help", "https://t.me/skytrixszbot?start=help"),
-            Button.url("Support", "https://t.me/wibuhouse"),
+            Button.url("Owner", "https://t.me/skytrixsz"),
         ]
     ]
     await tbot.send_file(event.chat_id, PHOTO, caption=TEXT, buttons=BUTTON)
