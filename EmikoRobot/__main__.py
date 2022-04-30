@@ -115,7 +115,7 @@ buttons = [
     ],
     [
         InlineKeyboardButton(
-            text="ᴛᴀᴍʙᴀʜ ᴋᴇ ɢʀᴜᴘ", url=f"t.me/skytrixszbot?startgroup=new"
+            text="ᴛᴀᴍʙᴀʜ ᴋᴇ ɢʀᴜᴘ", url=f"t.me/skytrixszavabot?startgroup=new"
         ),
     ],
 ]
